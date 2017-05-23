@@ -1,0 +1,15 @@
+{
+  "name": "postcss-focus-ring-codepen",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "browserify codepen.js | babel --presets=env | uglifyjs --compress --mangle > codepen.dist.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "browserify": "^14.3.0",
+    "postcss-focus-ring": "jonathantneal/postcss-focus-ring",
+    "uglify-js": "^3.0.10"
+  },
+  "private": true
+}
