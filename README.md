@@ -77,7 +77,7 @@ Add [PostCSS Loader] to your build tool:
 npm install postcss-loader --save-dev
 ```
 
-Use [PostCSS Focus Visible] in your Gulpfile:
+Use [PostCSS Focus Visible] in your `webpack.config.js`:
 
 ```js
 import focusVisible from 'postcss-focus-visible';
