@@ -1,9 +1,9 @@
 # PostCSS Focus Visible [<img src="https://postcss.github.io/postcss/logo.svg" alt="PostCSS Logo" width="90" height="90" align="right">][postcss]
 
-[![NPM Version][npm-img]][npm-url]
-[![CSS Standard Status][css-img]][css-url]
-[![Build Status][cli-img]][cli-url]
-[![Support Chat][git-img]][git-url]
+[<img alt="npm version" src="https://img.shields.io/npm/v/postcss-focus-visible.svg" height="20">][npm-url]
+[<img alt="CSS Standard Status" src="https://cssdb.org/badge/focus-within-pseudo-class.svg" height="20">][css-url]
+[<img alt="build status" src="https://img.shields.io/travis/csstools/postcss-focus-visible/master.svg" height="20">][cli-url]
+[<img alt="support chat" src="https://img.shields.io/badge/support-chat-blue.svg" height="20">][git-url]
 
 [PostCSS Focus Visible] lets you use the `:focus-visible` pseudo-class in
 CSS, following the [Selectors Level 4 specification].
@@ -115,13 +115,9 @@ focusVisible({ replaceWith: '[focus-visible]' });
 }
 ```
 
-[cli-img]: https://img.shields.io/travis/jonathantneal/postcss-focus-visible.svg
 [cli-url]: https://travis-ci.org/jonathantneal/postcss-focus-visible
-[css-img]: https://cssdb.org/badge/focus-within-pseudo-class.svg
 [css-url]: https://cssdb.org/#focus-visible-pseudo-class
-[git-img]: https://img.shields.io/badge/support-chat-blue.svg
 [git-url]: https://gitter.im/postcss/postcss
-[npm-img]: https://img.shields.io/npm/v/postcss-focus-visible.svg
 [npm-url]: https://www.npmjs.com/package/postcss-focus-visible
 
 [focus-visible polyfill]: https://github.com/WICG/focus-visible
