@@ -30,7 +30,6 @@
   "devDependencies": {
     "@babel/core": "7.15.5",
     "@babel/preset-env": "7.15.6",
-    "babel-eslint": "10.1.0",
     "eslint": "7.32.0",
     "eslint-config-dev": "2.0.0",
     "postcss": "8.3.6",
@@ -55,7 +54,10 @@
       "node": true
     },
     "extends": "eslint:recommended",
-    "parser": "babel-eslint"
+    "parserOptions": {
+      "ecmaVersion": 2020,
+      "sourceType": "module"
+    }
   },
   "rollup": {
     "input": "src/index.js",
@@ -64,6 +66,7 @@
     ],
     "output": [
       {
+        "exports": "default",
         "file": "dist/index.cjs.js",
         "format": "cjs"
       },
