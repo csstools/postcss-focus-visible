@@ -1,3 +1,6 @@
+<div align="center">⚠️ PostCSS Focus Visible was moved to <a href="https://github.com/csstools/postcss-plugins/tree/main/plugins/postcss-focus-visible">@csstools/postcss-plugins</a>. ⚠️ <br>
+<a href="https://github.com/csstools/postcss-plugins/discussions/75">Read the announcement</a></div>
+
 # PostCSS Focus Visible [<img src="https://postcss.github.io/postcss/logo.svg" alt="PostCSS Logo" width="90" height="90" align="right">][postcss]
 
 [<img alt="npm version" src="https://img.shields.io/npm/v/postcss-focus-visible.svg" height="20">][npm-url]
